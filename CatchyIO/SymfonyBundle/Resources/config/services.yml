@@ -1,0 +1,5 @@
+services:
+    kernel.listener.catchy.io:
+        class: CatchyIO\SymfonyBundle\Listener\RouterListener
+        tags:
+            - { name: kernel.event_listener, event: kernel.request, method: onKernelRequest }

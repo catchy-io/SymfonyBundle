@@ -1,6 +1,6 @@
 <?php
 
-namespace CatchyIO\Symfony\Listener;
+namespace CatchyIO\SymfonyBundle\Listener;
 
 use Symfony\Component\HttpKernel\HttpKernel;
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
