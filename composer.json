@@ -19,5 +19,6 @@
         "psr-0": {
             "CatchyIO\\SymfonyBundle\\": ""
         }
-    }
+    },
+    "target-dir": "CatchyIO/SymfonyBundle
 }
