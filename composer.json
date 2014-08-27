@@ -1,0 +1,23 @@
+{
+    "name": "catchy-io/symfony-bundle",
+    "description": "Symfony 2 bundle providing extra information for catchy.io services.",
+    "homepage": "http://catchy.io/",
+    "keywords": ["log","logging", "symfony", "performance", "monitoring", "catchy.io", "plugin", "apm"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Allaert"
+        },
+        {
+            "name": "Olivier Garcia"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "CatchyIO\\SymfonyBundle\\": ""
+        }
+    }
+}
